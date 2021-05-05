@@ -50,4 +50,7 @@ create new index.javascript file and write first javascript program
         fruit[1] = 'jai';
         console.log(Fruits)
 
-        c.function : It is block of code .
+        c. Function : It is block of code which can be used anywhere in a whole program.
+        MD : it is like big bank where you can store anything and get money/code whenever needed.
+        syntax:
+        
