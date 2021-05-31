@@ -1,0 +1,40 @@
+1. ES6 classes
+Although new developers are working with functional components, there is a possibility that 
+you may encounter old written class component code. So it can be helpful to learn basic of ES6 class.
+
+2. Basic understanding of var, let and const
+
+3. Arrow functions syntax .
+Arrow function is a new ES6 feature that's been used almost widely in modern codebases because
+it keeps the code concise and readable. It allows a short syntax for writing function expressions.
+
+4. Destructuring assignment
+Destructuring is a convenient way of accessing multiple properties stored in objects and arrays.
+
+Let's say:
+
+const person = {
+  firstName: 'Pratham',
+  lastName: 'Kumar'
+}
+
+const {firstName, lastName} = person;
+console.log(firstName); // Pratham
+
+5. Array methods 
+You will use Array method multiple times. So try to learn them before jumping onto React
+Some commonly used functions are
+- map
+- filter
+- reduce
+- find
+- findIndex
+
+6.Operators 
+- Ternary operator
+- Spread operator
+
+7.Callback functions
+A function passed as an argument to another function is called a callback if the function invokes the 
+argument at a later time
+You will use callbacks while working with hooks, forms, and other things
