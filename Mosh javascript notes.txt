@@ -2,21 +2,23 @@
 
 Java language is used to create app while javascript is used to decide behaviour of website on browser.
 Javascript became more useful when some pro wrote javascript engine inside c++ language and now known as node.
+node is basically javascript runtime and  runs javascript v8 engine.
 
 *when writing code, write script inside body tag, as it helps javascript to render elements easily.
 
 Create new index.javascript file and write first javascript program
-Press ctrl+~ and open terminal. press ls to print all files. To run javascript file write node + javascript file name
-and press enter.
+Press ctrl+~ to open terminal. write command ls to print all files. To run javascript file write node + javascript
+file name and press enter.
 
 1. Variable = they are used to store a value in memory. 
-    a. declaring variable = Usually we declare variable using 'var' keyword butits better to use 'let' to declare variable.
-    b. naming a variable = it's best to give a meaningful name. Cameltoe method to name i.e = first name variable small and
-    second one capital. e.g: firstName
-    c. pass a value to that variable.
+    a. Declaring variable = we can declare variable in 3 ways : let is most commonly used .
+        variable is used to assign value which can be ressigned again in code.
+        Constant : they are used, When u don't want to change value of assigned variable, its best to use when 
+        you are writing long codes.
+    b. naming a variable = it's best to give a meaningful name. Cameltoe method to name i.e = first name 
+    variable small and second one capital. e.g: firstName
+    c. pass any value to that variable number or string.
     d. to show that value in console use console.log().
-2. Constant Identifier: they are used, When u don't want to change value of assigned variable.
-    otherwise use 'let' variable to reassign variables.
 
 *Dynamic Typing = when we can change value of variable in runtime.
 
@@ -25,13 +27,13 @@ and press enter.
         a. string = a simple name or text type value.
         b. number = a numerical or decimal value.
         c. boolean =  true or false.
-        d. undetified = when you don't assign any value to variable.
+        d. unidentified = when you don't assign any value to variable.
         e. null = when you want to clear value of variable/ or initialize that variable value from zero.
 
     2. Reference type
         a. Object : (literal defination = LD) : Object is collection of properties.
-        My defination = MD : obeject is like real life object which have diffent features or style or thinking , all of 
-        which is called properties.
+        My defination = MD : object is like real life object which have diffent features or style or thinking ,
+         all of which is called properties.
         e.g:
         let person = {       //declaring object
         name: "jai",         //remember to put comma after declaring every value
@@ -41,9 +43,9 @@ and press enter.
 *Always put semicolon after declaring a variable, function, object and Arrays. otherwise it will show syntax error.
 
         There are 2 methods to access properties of object. 
-        a. Dot method : we call object name and then add dot and call the properties, we want to change.
+        (a) Dot method : we call object name + add dot + call the properties.
         e.g person.age = 20;
-        b. Bracket method : object name + property we want to change or access in brackets.
+        (b) Bracket method : object name + property we want to change or access in brackets.
         e.g person["age"] = 30;
         *Also we can pass the value to a variable and then call that variable to access that variable.
         e.g: let cat = 'age';
@@ -56,10 +58,12 @@ and press enter.
         fruit[1] = 'jai';
         console.log(Fruits)
 
-        c. Function : It is block of code  or set of statements which perform a task or calculate value.
+        c. Function : It is block of code or set of statements which perform a task or calculate value.
         MD : it is like big bank where you can store anything/set certain tasks and get task/code whenever needed.
         syntax: start with keyword function + name of function + () to declare it and then write code in the body {}.
         parameter: its variable which is declared in parenthesis at top, a function can have many parameter.  
         argument: its value we pass while calling that funtion at end.
-        return is used to return value when that argument is called.
-        
+        return is used to return value when that argument is called. 
+        once return is called, no code is gonna works after that.
+
+*we can use console.table to print values of object in a tabular form.        
