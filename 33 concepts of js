@@ -1,0 +1,5 @@
+1. Call Stack i.e we can call a funnction in form of heap or stack.
+    if you keep calling on stacks it will reach maximum no of x and after that it will not return any value.
+2. primitives = NaN (not a number) = whenever we want to add a no to string it will print NaN i.e one of variable
+    is not a number.
+    

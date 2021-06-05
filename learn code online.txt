@@ -1,6 +1,10 @@
 <b> Learn Code online Javascript Notes</b>
 
-1.	Template literals or stying Interpolation
+	to initialize any vairable,funtion we use 3 types: let is mostly used.
+	var is used for type whose value we want ot change in future.
+	const is used when we don't want to change value ever, it helps in solving errors faster.
+
+1.	Template literals or styling Interpolation.
 	In this, instead of calling vairable out of bracket we can call it inside string with syntax : `${variable name}`
 	To print lot of data in beautiful way, first in console.log brackets , we use backticks `` 
 	and then inside these backticks ,we can print whatever data(if it is declared) we want by dollar function.
@@ -8,22 +12,23 @@
 	name of person is : ${name}
 	
 	$ = it means "with" or getElementbyID
+	*cd = current directory
 
-2. operator = mathematical function like + , - , * , / etc are called operator.
+2. Operator = mathematical function like + , - , * , / etc are called operator.
 	math.round is used to round off decimal value into simple number form.
 
-3. conditional statement : if, else, else if, elif, for, while, do while.
+3. Conditional statement : if, else, else if, elif, for, while, do while.
 	&& and operator only if both conditional is true, || or operator when any of condition is true.
 
-4. ternary operator : 'if' statement can be represented by '?' , after this write condition to get output.
+4. Ternary operator : 'if' statement can be represented by '?' , after this write condition to get output.
     e.g: userName ? console.log("Welcome") : console.log("Not Welcomed"); //if username is true it will print 
     first conditional else it will print second condition.
 
-5. coercion:it means conversion of one type of value to other type. like string to number and number to string.
+5. Coercion : it means conversion of one type of value to other type. like string to number and number to string.
 	javascript assumes alot of things. in js ,when == is used to loosly compare 2 values to forcefully give 
 	true value, it is called coercion. to make it more accurate , we use === to compare data types as well. 
 
-6. function : Block of code which can reused. syntax: 
+6. Function : Block of code which can reused. syntax: 
 	functionname(){code to be reused};
 	3 parts of function are:
 		parameter: when values are passed inside simple parenthesis - functionname(parameters are declared here)
@@ -39,7 +44,7 @@
 	There are 2 types of context => 
 	1. Global = its is default, code will scan everywhere in window/ entire code and get that value and 
 		return them from anywhere.
-	2. excution context => Excution is done in serial order but global excution will be excuted at last stage. 
+	2. Eexcution context => Excution is done in serial order but global excution will be excuted at last stage. 
 		when function is called, it will first excute in its own context which inside its scope.
 	when code is run its will check 3 things : 
 		a. variable object 
@@ -64,9 +69,11 @@
 	similarly function first check for value inside its scope then it check value in next function scope and then to 
 	nth function and at last it will find global value and execute it.
 	
-9. this keyword = it is a empty scope, it will only print parenthesis. this keyword tell scope of object or function.
+9. this keyword = this keyword tells scope of object or function. it is used to point a argument towards inside 
+	of a array or another function. it tells where that variable scope is and how to get data from it.
+	it is a empty scope, it will only print parenthesis . 
 
-10. array = it collection of different data . we can add or delete data , we can also print any data using index method. 
+10. Array = it collection of different data . we can add or delete data , we can also print any data using index method. 
 	syntax : var arrayname = ["data_1", "data_2".....data_n];
 	var arrayname = new array("data_1", "data_2".....data_n);
 
@@ -117,9 +124,22 @@
 	syntax =>	initialize object -> 
 			var object_name {
 				keys : values,
-				keys1 : value1
+				keys1 : value1,
 			}
-	to change properties of oject, dot method is best. oject.name = new_property
-
+	=>to change properties of oject, dot method is best. oject.name = new_property
 	*console.table to print values/elements inside obejct or array in a tabular form.
 
+14. Method = We use it to create a array or another function inside that function. for e.g when we create a array
+	we can modify it by creating another function. to access value of array, "this" keyword is used.
+
+15. for loop = It is used to create repetition loops. we can use if loop inside for loop to specify condition for
+	its breakage. when condition meets we use break to end printing of array.
+
+16. for each = it is is not loop but instead method on array. It will loop through any array each time until 
+	condition is true.
+	array_name.foreach( (s) => (condition));
+
+17. for of and in loop = it is used same as console.log loop to print whole array. For In loop can be used to
+	print only keys or values from a array. Interpolation is used on these loops.
+
+18. 

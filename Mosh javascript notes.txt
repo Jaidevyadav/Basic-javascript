@@ -11,14 +11,15 @@ Press ctrl+~ to open terminal. write command ls to print all files. To run javas
 file name and press enter.
 
 1. Variable = they are used to store a value in memory. 
-    a. Declaring variable = we can declare variable in 3 ways : let is most commonly used .
-        variable is used to assign value which can be ressigned again in code.
+    a. Declaring variable = we can declare variable in 3 ways : 
+        let is most commonly used .
+        var = variable keyword is used to assign value which can be ressigned again in code.
         Constant : they are used, When u don't want to change value of assigned variable, its best to use when 
         you are writing long codes.
     b. naming a variable = it's best to give a meaningful name. Cameltoe method to name i.e = first name 
     variable small and second one capital. e.g: firstName
-    c. pass any value to that variable number or string.
-    d. to show that value in console use console.log().
+    c. pass any type of value to that variable like number, string or float.
+        to show that value in console use console.log().
 
 *Dynamic Typing = when we can change value of variable in runtime.
 
@@ -61,8 +62,11 @@ file name and press enter.
         c. Function : It is block of code or set of statements which perform a task or calculate value.
         MD : it is like big bank where you can store anything/set certain tasks and get task/code whenever needed.
         syntax: start with keyword function + name of function + () to declare it and then write code in the body {}.
+
         parameter: its variable which is declared in parenthesis at top, a function can have many parameter.  
+        
         argument: its value we pass while calling that funtion at end.
+        
         return is used to return value when that argument is called. 
         once return is called, no code is gonna works after that.
 
