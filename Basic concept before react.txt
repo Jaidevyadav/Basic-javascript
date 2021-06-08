@@ -19,7 +19,7 @@ const person = {
 }
 
 const {firstName, lastName} = person;
-console.log(firstName); // Pratham
+console.log(firstName);
 
 5. Array methods 
 You will use Array method multiple times. So try to learn them before jumping onto React

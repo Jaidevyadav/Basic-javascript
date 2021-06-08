@@ -12,9 +12,9 @@ file name and press enter.
 
 1. Variable = they are used to store a value in memory. 
     a. Declaring variable = we can declare variable in 3 ways : 
-        let is most commonly used .
-        var = variable keyword is used to assign value which can be ressigned again in code.
-        Constant : they are used, When u don't want to change value of assigned variable, its best to use when 
+        'let' is most commonly used .
+        'var' = variable keyword is used to assign value which can be ressigned again in code.
+        'Const' : Constants are used, When u don't want to change value of assigned variable, its best to use when 
         you are writing long codes.
     b. naming a variable = it's best to give a meaningful name. Cameltoe method to name i.e = first name 
     variable small and second one capital. e.g: firstName
@@ -24,50 +24,51 @@ file name and press enter.
 *Dynamic Typing = when we can change value of variable in runtime.
 
 3.Types of value which can be asssignned to a variable. 
-    1. Primitive or Value types.
-        a. string = a simple name or text type value.
-        b. number = a numerical or decimal value.
-        c. boolean =  true or false.
-        d. unidentified = when you don't assign any value to variable.
-        e. null = when you want to clear value of variable/ or initialize that variable value from zero.
+(i). Primitive or Value types.
+    a. string = a simple name or text type value.
+    b. number = a numerical or decimal value.
+    c. boolean =  true or false.
+    d. unidentified = when you don't assign any value to variable.
+    e. null = when you want to clear value of variable/ or initialize that variable value from zero.
 
-    2. Reference type
-        a. Object : (literal defination = LD) : Object is collection of properties.
-        My defination = MD : object is like real life object which have diffent features or style or thinking ,
-         all of which is called properties.
-        e.g:
-        let person = {       //declaring object
-        name: "jai",         //remember to put comma after declaring every value
-        age : 31
-        };
-        
+(ii). Reference type
+    1. Object : (literal defination = LD) : Object is collection of properties.
+    My defination = MD : object is like real life object which have diffent features or style or thinking ,
+        all of which is called properties.
+    e.g:
+    let person = {       //declaring object
+    name: "jai",         //remember to put comma after declaring every value
+    age : 31
+    };
+    
 *Always put semicolon after declaring a variable, function, object and Arrays. otherwise it will show syntax error.
 
-        There are 2 methods to access properties of object. 
-        (a) Dot method : we call object name + add dot + call the properties.
-        e.g person.age = 20;
-        (b) Bracket method : object name + property we want to change or access in brackets.
-        e.g person["age"] = 30;
-        *Also we can pass the value to a variable and then call that variable to access that variable.
-        e.g: let cat = 'age';
-        person['cat'] = 29;
+    There are 2 methods to access properties of object. 
+    (a) Dot method : we call object name + add dot + call the properties.
+    e.g person.age = 20;
+    (b) Bracket method : object name + property we want to change or access in brackets.
+    e.g person["age"] = 30;
+    *Also we can pass the value to a variable and then call that variable to access that variable.
+    e.g: let cat = 'age';
+    person['cat'] = 29;
 
-        b. Arrays : LD : Is is variable which store multiple values or it is data structure which represents list of items.
-        MD : It is collection of data and it can store any type of data i.e string or number.
-            *We access data in array by index no.
-        let Fruits = {'apple','grapes','banana','pineapple'}
-        fruit[1] = 'jai';
-        console.log(Fruits)
+    2. Arrays : LD : Is is variable which store multiple values or it is data structure which represents 
+    list of items.
+    MD : It is collection of data and it can store any type of data i.e string or number.
+        *We access data in array by index no.
+    let Fruits = {'apple','grapes','banana','pineapple'}
+    fruit[1] = 'jai';
+    console.log(Fruits)
 
-        c. Function : It is block of code or set of statements which perform a task or calculate value.
-        MD : it is like big bank where you can store anything/set certain tasks and get task/code whenever needed.
-        syntax: start with keyword function + name of function + () to declare it and then write code in the body {}.
+    3. Function : It is block of code or set of statements which perform a task or calculate value.
+    MD : it is like big bank where you can store anything/set certain tasks and get task/code whenever needed.
+    syntax: start with keyword function + name of function + () to declare it and then write code in the body {}.
 
-        parameter: its variable which is declared in parenthesis at top, a function can have many parameter.  
-        
-        argument: its value we pass while calling that funtion at end.
-        
-        return is used to return value when that argument is called. 
-        once return is called, no code is gonna works after that.
+    parameter: its variable which is declared in parenthesis at top, a function can have many parameter.  
+    
+    argument: its value we pass while calling that funtion at end.
+    
+    return is used to return value when that argument is called. 
+    once return is called, no code is gonna works after that.
 
 *we can use console.table to print values of object in a tabular form.        

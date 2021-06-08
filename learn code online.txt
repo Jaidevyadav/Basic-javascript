@@ -69,9 +69,10 @@
 	similarly function first check for value inside its scope then it check value in next function scope and then to 
 	nth function and at last it will find global value and execute it.
 	
-9. this keyword = this keyword tells scope of object or function. it is used to point a argument towards inside 
-	of a array or another function. it tells where that variable scope is and how to get data from it.
-	it is a empty scope, it will only print parenthesis . 
+9. this keyword = this keyword tells scope of object or function. 
+	For regular function calls, this points to a window object.
+	it is used to point a argument towards another value inside of same array or another function. it tells where
+	that variable scope is and how to get data from it. it is a empty scope, it will only print parenthesis. 
 
 10. Array = it collection of different data . we can add or delete data , we can also print any data using index method. 
 	syntax : var arrayname = ["data_1", "data_2".....data_n];
@@ -120,7 +121,7 @@
 12. Callback function = We can use a function with array and call back any value from that function.
 
 13. Objects = object is like real life object which have diffent features or style or thinking ,
-         all of which is called properties. 
+        all of which is called properties. 
 	syntax =>	initialize object -> 
 			var object_name {
 				keys : values,
@@ -129,8 +130,9 @@
 	=>to change properties of oject, dot method is best. oject.name = new_property
 	*console.table to print values/elements inside obejct or array in a tabular form.
 
-14. Method = We use it to create a array or another function inside that function. for e.g when we create a array
-	we can modify it by creating another function. to access value of array, "this" keyword is used.
+14. Method = Method is basically a function passed inside a array as a arguments/key. When we create a small 
+	function inside a array, it is called method.
+	to access any other values inside of array, "this" keyword is used with that method.
 
 15. for loop = It is used to create repetition loops. we can use if loop inside for loop to specify condition for
 	its breakage. when condition meets we use break to end printing of array.
@@ -140,6 +142,4 @@
 	array_name.foreach( (s) => (condition));
 
 17. for of and in loop = it is used same as console.log loop to print whole array. For In loop can be used to
-	print only keys or values from a array. Interpolation is used on these loops.
-
-18. 
+	print only keys or values from a array. Interpolation is used on these loops to pretty print.

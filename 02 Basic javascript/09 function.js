@@ -1,15 +1,18 @@
+//regular functions
 function firstName(name) {
   console.log("Hello World");
   console.log(`Hello world, nice to meet you mr ${name}`);
 }
+//function call
+firstName("jai");
 
-//firstName("jai");
-
-function firstName() {
+function secondName() {
   return "Hello world";
 }
 
-//firstName("jai");  this will only return value but not print it.
+//this will only return value but not print it.
+secondName("jai");
 
-var newName = firstName(); //here we are passing the return value to a variable and then print it.
+// to print a value we pass that function call to a variable and then console log it.
+var newName = secondName();
 console.log(newName);
