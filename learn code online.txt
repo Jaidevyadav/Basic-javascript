@@ -35,7 +35,7 @@
 		argument: are values passed inside curly brackets. functionname(){arguments};
 		method: are used to define what function should do. (method is like alchemy)
 
-	*argument and parenthesis can be same in function as both are value pass inside function 
+	*argument and parameter can be same in function as both are value pass inside function 
 	but difference is in positioning of these.
 	*Function can be passed to variable and it will act as a variable. all properties of variable can be
 	applied to function.
@@ -44,7 +44,7 @@
 	There are 2 types of context => 
 	1. Global = its is default, code will scan everywhere in window/ entire code and get that value and 
 		return them from anywhere.
-	2. Eexcution context => Excution is done in serial order but global excution will be excuted at last stage. 
+	2. Excution context => Excution is done in serial order but global excution will be excuted at last stage. 
 		when function is called, it will first excute in its own context which inside its scope.
 	when code is run its will check 3 things : 
 		a. variable object 
@@ -74,7 +74,7 @@
 	it is used to point a argument towards another value inside of same array or another function. it tells where
 	that variable scope is and how to get data from it. it is a empty scope, it will only print parenthesis. 
 
-10. Array = it collection of different data . we can add or delete data , we can also print any data using index method. 
+10. Array = it collection of different data. we can add or delete data , we can also print any data using index method. 
 	syntax : var arrayname = ["data_1", "data_2".....data_n];
 	var arrayname = new array("data_1", "data_2".....data_n);
 
@@ -107,7 +107,7 @@
 
 11. Arrow function = it is alternative to traditional function expression. just simply we can call whole function
 	in single line inside parenthesis.
-	A arrow functio consists of 3 parts: 
+	A arrow function consists of 3 parts: 
 	In first part, function keyword is removed and instead we use a variable which is declared above, as function name.
 	In second name, parameter is declared after equal to sign and after that there is another = to which acts as
 	curly brackets for arrowfunction.

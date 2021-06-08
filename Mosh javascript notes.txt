@@ -14,8 +14,8 @@ file name and press enter.
     a. Declaring variable = we can declare variable in 3 ways : 
         'let' is most commonly used .
         'var' = variable keyword is used to assign value which can be ressigned again in code.
-        'Const' : Constants are used, When u don't want to change value of assigned variable, its best to use when 
-        you are writing long codes.
+        'Const' : Constants are used, When u don't want to change value of assigned variable, 
+                  its best to use when you are writing long codes.
     b. naming a variable = it's best to give a meaningful name. Cameltoe method to name i.e = first name 
     variable small and second one capital. e.g: firstName
     c. pass any type of value to that variable like number, string or float.
@@ -61,12 +61,13 @@ file name and press enter.
     console.log(Fruits)
 
     3. Function : It is block of code or set of statements which perform a task or calculate value.
-    MD : it is like big bank where you can store anything/set certain tasks and get task/code whenever needed.
+    MD : it is like big bank where you can store anything/set certain tasks and use that code to that task 
+    whenever needed at any place.
     syntax: start with keyword function + name of function + () to declare it and then write code in the body {}.
 
-    parameter: its variable which is declared in parenthesis at top, a function can have many parameter.  
-    
-    argument: its value we pass while calling that funtion at end.
+    Parameter: its variable which is declared in parenthesis at top, a function can have many parameter.  
+
+    Argument: it is array like object inside function that contains values.
     
     return is used to return value when that argument is called. 
     once return is called, no code is gonna works after that.
